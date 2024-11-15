@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <title>House of Sneakers</title> 
+</head>
+<body>
+    <header class="navbar">
+        <h1> House of Sneakers</h1>
+        <img src="./img/logo-sneakers.webp" width="40" height="40" style="border-radius: 20px;">
+    </header>
+    <div class="separator"></div>
+
+    <div class="slider">
+        <div class="slider--inner">
+            <img class='promo-img' src="./img/promo8.jpeg" alt="imagen-promocional">
+            <img class='promo-img' src="./img/promo4.jpeg" alt="imagen-promocional">
+            <img class='promo-img' src="./img/promo3.jpeg" alt="imagen-promocional">
+            <img class='promo-img' src="./img/promo2.jpeg" alt="imagen-promocional">
+        </div>
+    </div>
+
+    <section class="contenedor">
+        <!-- Contenedor de elementos -->
+        <div class="contenedor-items">
+            <!-- Ejemplo del item construido. -->
+            <!-- <div class="item">
+                <span class="titulo-item">NIKE JORDAN BROWN</span>
+                <img src="img/zapatillas2.jpg" alt="" class="img-item">
+                <span class="precio-item">$250.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div> -->
+        </div>
+        <!-- Carrito de Compras -->
+        <div class="carrito" id="carrito">
+            <div class="header-carrito">
+                <h2>Tu Carrito</h2>
+            </div>
+
+            <div class="carrito-items">
+                <!-- Aqui van los items generados desde JS -->
+            </div>
+            <div class="carrito-total">
+                <div class="fila">
+                    <strong>Tu Total</strong>
+                    <span class="carrito-precio-total"></span>
+                </div>
+                <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i> </button>
+                <button class="btn-vaciar-carrito">Vaciar Carrito <i class="fa-solid fa-trash"></i> </button>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-content">
+            <img src="./img/logo-sneakers.webp" width="40" height="40" style="border-radius: 20px;" alt="Logo">
+            <p>&copy; 2024 House of Sneakers</p>
+        </div>
+    </footer>
+    <script src="index.js" async type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="db.js" type="module"></script>
+    
+</body>
+</html>

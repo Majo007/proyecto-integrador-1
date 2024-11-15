@@ -1,0 +1,15 @@
+{
+  "name": "carrito-compras-facultad",
+  "version": "1.0.0",
+  "description": "carrito_compras",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "carrito-compras-facultad": "file:"
+  }
+}
